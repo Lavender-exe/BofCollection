@@ -129,5 +129,5 @@ RegisterCommand(smbinfo, "", "smbinfo", "Gather remote system version info using
 RegisterCommand(startwebclient, "", "startwebclient", "Force start the Web Client service.", 0, "", "")
 
 RegisterCommand(addmachineaccount, "", "addmachineaccount", "Add a computer account to the Active Directory domain.", 0, "[Computer Name] [Password]", "PIVOT n3rdl0l")
-RegisterCommand(delmachineaccount, "", "delmachineaccount", "", 0, "", "")
-RegisterCommand(getmachineaccountquota, "", "getmachineaccountquota", "", 0, "", "")
+RegisterCommand(delmachineaccount, "", "delmachineaccount", "Delete a computer account to the Active Directory domain.", 0, "[Computer Name]", "PIVOT")
+RegisterCommand(getmachineaccountquota, "", "getmachineaccountquota", "Read the ms-DS-MachineAccountQuota value from AD", 0, "", "")
